@@ -1,0 +1,74 @@
+* {
+    background-color: rgb(16, 78, 78);
+
+}
+h1,h2,h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+.name {
+     font-size: small;
+     
+}
+h1 {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: azure;
+   margin-left: 500px;
+   margin-right: auto;
+   size: 10px;
+
+     
+}
+img {
+    width: 30%;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    color: rgb(4, 4, 119);
+    border: solid 15px;
+    max-width: 50%;
+    border-style: dashed;
+    margin-left: 100px;
+}
+
+
+.quote {
+    margin-top: 200px;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: aquamarine;
+
+}
+
+.about {
+    clear: both;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    vertical-align: middle;
+    color: aquamarine;
+}
+
+/* Make sure that padding behaves as expected */
+.container {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 60%; background-color: #2196F3;} /* Blue */
+.js {width: 8%; background-color: #f44336;} /* Red */
+.php {width: 5%; background-color: #808080;} /* Dark Grey */
